@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="../tailwind_cdn.js"></script>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <nav class="absolute z-50 w-full py-8">
+      <div class="container relative mx-auto">
+        <div class="main_menu relative px-4 md:px-0 lg:flex lg:justify-between">
+          <div class="logo"><img src="../image/home/logo.png" alt="" /></div>
+          <ul
+            class="menu left-1/2 hidden w-full flex-col items-center text-center drop-shadow-lg lg:flex lg:w-max lg:flex-row lg:gap-[100px] lg:drop-shadow-none"
+          >
+            <li class="w-60 lg:w-fit">
+              <a class="btn_nav" href="#">home</a>
+            </li>
+
+            <li class="w-60 lg:w-fit">
+              <a class="btn_nav" href="#">about</a>
+            </li>
+
+            <li class="w-60 lg:w-fit">
+              <a class="btn_nav" href="#">properties</a>
+            </li>
+
+            <li class="w-60 lg:w-fit">
+              <a class="btn_nav" href="#">contacat</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="menu_bar absolute right-4 top-2 h-8 w-8 rounded text-center leading-8 text-secondary hover:bg-yellow-50 lg:hidden"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div
+            class="menu_close absolute right-4 top-2 hidden h-8 w-8 rounded text-center leading-8 text-secondary hover:bg-yellow-50 lg:hidden"
+          >
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ===================  nav end ==================== -->
+    <!-- ===================  Banner Start ==================== -->
+
+    <section id="banner" class="relative bg-primery pb-16 pt-[130px]">
+      <div
+        class="banner_wraper container relative mx-auto flex xl:justify-between"
+      >
+        <div class="banner_detiles mx-4 lg:w-[777px] xl:w-[1000px]">
+          <h1
+            class="text-2xl font-semibold text-secondary sm:text-5xl lg:mt-[62px] lg:text-[56px] lg:leading-[84px] xl:leading-[88px] xl:text-[65x]"
+          >
+            Temukan Hunian Keluarga Sesuai Keinginanmu
+          </h1>
+          <p
+            class="mt-6 text-sm text-secondary opacity-60 sm:text-base lg:w-[544px] lg:leading-[30px] xl:w-[740px] xl:text-2xl xl:leading-[1.8]"
+          >
+            Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
+            lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+          </p>
+          <div
+            class="relative mx-5 mt-[56px] overflow-hidden rounded-[15px] bg-white lg:mx-0 lg:h-[70px] lg:w-[665px]"
+          >
+            <input
+              class="ms-8 w-full pr-36 text-sm leading-[50px] outline-none sm:leading-[60px] lg:ms-[56px] lg:leading-[70px]"
+              type="text"
+              placeholder="Search location, properties, residental group"
+            />
+            <button
+              class="absolute right-2 top-1/2 translate-y-[-50%] rounded-[16px] bg-secondary px-5 py-1 text-white sm:px-6 sm:py-2 lg:right-[14px] lg:px-[41px] lg:py-[13px]"
+            >
+              Search
+            </button>
+          </div>
+          <div class="count_down mt-10 flex gap-7 lg:mt-14 lg:gap-[75px]">
+            <div class="w-24 lg:w-[143px]">
+              <h3
+                class="text-xl font-bold text-secondary lg:text-[56px] lg:leading-[84px]"
+              >
+                200<span class="text-orange-600">+</span>
+              </h3>
+              <p
+                class="text-lite_secondary text-xs font-light lg:text-base lg:leading-[30px]"
+              >
+                Residental grup telah bergabung
+              </p>
+            </div>
+            <div class="w-24 lg:w-[143px]">
+              <h3
+                class="text-xl font-bold text-secondary lg:text-[56px] lg:leading-[84px]"
+              >
+                200<span class="text-orange-600">+</span>
+              </h3>
+              <p
+                class="text-lite_secondary text-xs font-light lg:text-base lg:leading-[30px]"
+              >
+                Residental grup telah bergabung
+              </p>
+            </div>
+            <div class="w-24 lg:w-[143px]">
+              <h3
+                class="text-xl font-bold text-secondary lg:text-[56px] lg:leading-[84px]"
+              >
+                200<span class="text-orange-600">+</span>
+              </h3>
+              <p
+                class="text-lite_secondary text-xs font-light lg:text-base lg:leading-[30px]"
+              >
+                Residental grup telah bergabung
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="banner_img">
+          <img
+            class="right-0 top-0 hidden h-[522px] w-[401px] lg:block"
+            src="../image/home/banner.png"
+            alt="img"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ===================  Banner End ==================== -->
+    <!-- ===================  Purchase Start ==================== -->
+    <section id="purchase" class="py-[100px]">
+      <div class="container mx-auto">
+        <h3
+          class="m-4 font-semibold capitalize lg:leading-[54px] text-secondary lg:w-[533px] lg:text-4xl"
+        >
+          Easy and Fast Property Purchase Stages
+        </h3>
+
+        <div class="mt-16 flex flex-wrap justify-between">
+          <div
+            class="item mx-4 w-full rounded-md border border-transparent px-8 py-5 hover:border-primery hover:shadow lg:w-1/4"
+          >
+            <div class="flex justify-between">
+              <h4
+                class="relative block text-base font-semibold text-secondary after:absolute after:left-[-32px] after:top-1/2 after:h-[30px] after:w-2 after:-translate-y-1/2 after:rounded-full after:bg-orange-600 after:content-['']"
+              >
+                Pilih Properti
+              </h4>
+              <span class="text-orange-600"> 01</span>
+            </div>
+            <p
+              class="mt-2 text-base font-light leading-[30px] text-secondary opacity-60"
+            >
+              Cari properti yang diinginkan sesuai dengan kriteria anda dan
+              keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+              lanjut di sini
+            </p>
+            <a
+              class="mt-12 inline-block text-base font-semibold text-secondary"
+              href="#"
+            >
+              Baca lebih Lanjut
+              <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+            ></a>
+          </div>
+          <div
+            class="item rounded-md border border-transparent px-8 py-5 hover:border-primery hover:shadow lg:w-1/4"
+          >
+            <div class="flex justify-between">
+              <h4
+                class="relative block text-base font-semibold text-secondary after:absolute after:left-[-32px] after:top-1/2 after:h-[30px] after:w-2 after:-translate-y-1/2 after:rounded-full after:bg-orange-600 after:content-['']"
+              >
+                Pilih Properti
+              </h4>
+              <span class="text-orange-600"> 01</span>
+            </div>
+            <p
+              class="mt-2 text-base font-light leading-[30px] text-secondary opacity-60"
+            >
+              Cari properti yang diinginkan sesuai dengan kriteria anda dan
+              keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+              lanjut di sini
+            </p>
+            <a
+              class="mt-12 inline-block text-base font-semibold text-secondary"
+              href="#"
+            >
+              Baca lebih Lanjut
+              <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+            ></a>
+          </div>
+          <div
+            class="item w-1/4 rounded-md border border-transparent px-8 py-5 hover:border-primery hover:shadow"
+          >
+            <div class="flex justify-between">
+              <h4
+                class="relative block text-base font-semibold text-secondary after:absolute after:left-[-32px] after:top-1/2 after:h-[30px] after:w-2 after:-translate-y-1/2 after:rounded-full after:bg-orange-600 after:content-['']"
+              >
+                Pilih Properti
+              </h4>
+              <span class="text-orange-600"> 01</span>
+            </div>
+            <p
+              class="mt-2 text-base font-light leading-[30px] text-secondary opacity-60"
+            >
+              Cari properti yang diinginkan sesuai dengan kriteria anda dan
+              keluarga. Cara memilih properti yang bijak dapat anda baca lebih
+              lanjut di sini
+            </p>
+            <a
+              class="mt-12 inline-block text-base font-semibold text-secondary"
+              href="#"
+            >
+              Baca lebih Lanjut
+              <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================  Purchase End ==================== -->
+
+    <script
+      src="https://kit.fontawesome.com/62d2d1d427.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

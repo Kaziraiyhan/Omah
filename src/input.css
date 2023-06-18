@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn_nav {
+    @apply relative block border-b-2 border-secondary border-opacity-40 bg-yellow-50 p-2 text-center text-base font-semibold capitalize text-secondary transition duration-300 after:bottom-1 after:left-0 after:z-10 after:h-1 after:w-1/2 after:translate-x-1/2 after:rounded-full after:transition after:duration-500 after:content-[''] hover:bg-secondary hover:text-primery hover:opacity-100 after:hover:bg-orange-600 lg:border-none lg:bg-transparent lg:after:absolute lg:hover:bg-transparent lg:hover:text-Dark_secondary;
+  }
+}
