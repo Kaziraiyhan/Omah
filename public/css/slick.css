@@ -120,7 +120,7 @@
 
 .slick_prev{
     position: absolute;
-    right: 200px;
+    right: 100px;
     top: -100px;
     transform: translateY(-50%);
     z-index: 10;
@@ -132,7 +132,7 @@
 }
 .slick_next{
     position: absolute;
-    right: 160px;
+    right: 60px;
     top: -100px;
     transform: translateY(-50%);
     z-index: 10;
@@ -151,3 +151,19 @@
     border: #EEEDDE 1px solid;
 
 }
+@media (min-width: 640px) { 
+
+    .slick_prev{
+     
+        right: 200px;
+     
+    
+    }
+    .slick_next{
+       
+        right: 160px;
+     
+     
+    
+    }
+ }
