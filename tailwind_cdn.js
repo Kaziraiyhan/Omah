@@ -9,7 +9,7 @@ tailwind.config = {
       colors: {
         'primery': '#EEEDDE',
         'secondary': '#203239',
-        'red':'#AA336A',
+     
         'Dark_secondary':'#0f181c',
        
 
