@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./public/css/slick.css" />
+    <link rel="stylesheet" href="./public/css/venobox.css" />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -123,7 +125,7 @@
         </div>
         <div class="banner_img">
           <img
-            class="right-0 top-0 hidden h-[522px] w-[401px] xl:scale-125 lg:block"
+            class="right-0 top-0 hidden h-[522px] w-[401px] lg:block xl:scale-125"
             src="./image/home/banner.png"
             alt="img"
           />
@@ -135,7 +137,7 @@
     <section id="purchase" class="py-[100px]">
       <div class="container mx-auto">
         <h3
-          class="m-4 font-semibold  capitalize text-2xl w-80  text-secondary lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+          class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:w-[533px] lg:text-4xl lg:leading-[54px]"
         >
           Easy and Fast Property Purchase Stages
         </h3>
@@ -227,66 +229,339 @@
 
     <!-- ===================  Purchase End ==================== -->
     <!-- ===================  Residen Favorit Start ==================== -->
-    <section class="favorit py-[68px]">
+    <section class="favorit bg-primery py-[68px]">
       <div class="container mx-auto">
+        <p class="ms-4 text-base font-medium text-orange-600 lg:ms-0">
+          Pilihan konsumen
+        </p>
 
-        <p class="ms-4 lg:ms-0 text-orange-600 text-base font-medium">Pilihan konsumen</p>
-
-          <h3
-          class="m-4 font-semibold  capitalize text-2xl w-80  text-secondary lg:m-0 lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+        <h3
+          class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:m-0 lg:w-[533px] lg:text-4xl lg:leading-[54px]"
         >
-        Residen Favorit
+          Residen Favorit
         </h3>
       </div>
-      <div class="container mx-auto flex justify-between mt-16">
-        <div class="wraper w-[525px] h-[550px] relative">
-          <div class="images w-[358px] h-[490px] absolute left-0 rounded-2xl top-0  transition duration-300 scale-90 hover:scale-100 hover:z-10 overflow-hidden bg-blue-200"></div>
-          <div class="images w-[358px] h-[490px] absolute right-0  bottom-0 rounded-2xl overflow-hidden bg-yellow-200 "></div>
-
+      <div class="container mx-auto mt-16 flex justify-between">
+        <div class="wraper relative hidden h-[550px] w-[525px] lg:block">
+          <div
+            class="images absolute left-0 top-0 h-[490px] w-[358px] scale-90 overflow-hidden rounded-2xl bg-blue-200 transition duration-300 hover:z-10 hover:scale-100"
+          ></div>
+          <div
+            class="images absolute bottom-0 right-0 h-[490px] w-[358px] overflow-hidden rounded-2xl bg-yellow-200"
+          ></div>
         </div>
-        <div class="wraper w-[577px] mt-[218px]">
-          <h4 class="font-semibold text-4xl text-secondary">
+        <div class="wraper w-[577px] lg:mt-[218px]">
+          <h3
+            class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+          >
             Bangunan yang dirancang oleh Aristektur Handal
-          </h4>
-          <p class="font-light text-base leading--[30px] text-secondary mt-6">
-            Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
+          </h3>
+          <p
+            class="leading--[30px] ms-4 mt-6 text-base font-light text-secondary md:ms-0"
+          >
+            Tanpa diragukan, properti yang disediakan dalam webiste kami
+            merupakan hasil kerjasama secara profesional dengan para Arsitektur
+            ternama dan Developer yang terpercaya.
           </p>
-        
-          <a class="font-semibold text-base px-10 py-3 border border-secondary rounded-xl inline-block mt-12 bg-secondary hover:text-secondary hover:bg-primery transition duration-300 text-primery" href="#">
-            <i class="fa-solid fa-phone inline-block mr-3"></i>  Hubungi Kami
-          </a>
-          <a class=" ms-12 font-semibold text-base px-10 py-3 border border-secondary rounded-xl inline-block mt-12 bg-secondary hover:text-secondary hover:bg-primery transition duration-300 text-primery"  href="#">
-            Explore lebih banyak
-          </a>
-
+          <div class="ms-4 text-center md:text-start">
+            <a
+              class="mt-12 inline-block rounded-xl border border-secondary bg-secondary px-10 py-3 text-sm font-semibold text-primery transition duration-300 hover:bg-primery hover:text-secondary lg:text-base"
+              href="#"
+            >
+              <i class="fa-solid fa-phone mr-4 inline-block"></i> Hubungi Kami
+            </a>
+            <a
+              class="mt-3 inline-block rounded-xl border border-secondary bg-secondary px-10 py-3 text-sm font-semibold text-primery transition duration-300 hover:bg-primery hover:text-secondary md:ms-12 md:mt-12 md:text-base"
+              href="#"
+            >
+              Explore lebih banyak
+            </a>
+          </div>
         </div>
       </div>
     </section>
     <!-- ===================  Residen Favorit End ==================== -->
-    <!-- ===================  Residen Favorit End ==================== -->
-       <section>
-        <div class="container mx-auto">
 
-          <p class="ms-4 lg:ms-0 text-orange-600 text-base font-medium">Pilihan konsumen</p>
-  
-            <h3
-            class="m-4 font-semibold  capitalize text-2xl w-80  text-secondary lg:m-0 lg:w-[533px] lg:text-4xl lg:leading-[54px]"
-          >
+    <!-- ===================  Residen Favorit End ==================== -->
+    <section class="py-16">
+      <div class="container mx-auto">
+        <p class="ms-4 text-base font-medium text-orange-600 lg:ms-0">
+          Pilihan konsumen
+        </p>
+
+        <h3
+          class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:m-0 lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+        >
           Residen Favorit
-          </h3>
+        </h3>
+
+ 
+        <div class="slaider mt-16">
+     
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+         
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+             
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+           
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+           
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+           
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="m-0 flex items-center justify-center">
+            <div class="w-[357px]">
+              <div
+                class="h-[454px] w-full overflow-hidden rounded-2xl bg-teal-400"
+              >
+                <img
+                  class="w-full object-cover"
+                  src="./image/home/city_img.png"
+                  alt="img"
+                />
+              </div>
+           
+              <div class="mt-4">
+                <h4 class="text-2xl font-semibold text-secondary">
+                  Magnolia Surabaya
+                </h4>
+                <p class="mt-2 text-base font-light leading-7 text-secondary">
+                  Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec.
+                  Jatiuwung, Kota Tangerang, Banten 15136
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-       </section>
-
-
+      </div>
+    </section>
 
     <!-- ===================  Residen Favorit End ==================== -->
+    <!-- ===================  Footer Start ==================== -->
+    <footer class="bg-primery pt-12">
+      <div class="container mx-auto">
+      
+        <div class="flex justify-between flex-col gap-y-10 lg:flex-row">
+          <div>
+            <h3
+              class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+            >
+              Hubungi Kami
+            </h3>
+            <div class="wraper flex gap-x-12 flex-col gap-y-8 items-center sm:flex-row">
+              <div
+                class="flex max-w-fit flex-col items-center rounded-[10px] border border-orange-600 border-opacity-50 p-6"
+              >
+                <div class="flex items-center gap-x-4">
+                  <span class="text-4xl text-secondary">
+                    <i class="fa-solid fa-phone"></i
+                  ></span>
 
+                  <span>
+                    <h3
+                      class="ms-4 text-base font-semibold capitalize text-secondary"
+                    >
+                      call
+                    </h3>
+                    <h3
+                      class="ms-4 text-base font-semibold capitalize text-secondary"
+                    >
+                      01303069224
+                    </h3>
+                  </span>
+                </div>
+                <a
+                  class="mt-6 inline-block w-max rounded-xl bg-[#fdd6bf] px-[60px] py-3 text-center text-base font-semibold capitalize text-orange-600 transition-all duration-300 hover:bg-[#FF7527] hover:text-primery"
+                  href=""
+                >
+                  call now</a
+                >
+              </div>
 
+              <div
+                class="flex max-w-fit flex-col items-center rounded-[10px] border border-orange-600 border-opacity-50 p-6"
+              >
+                <div class="flex items-center gap-x-4">
+                  <span class="text-4xl text-secondary">
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
+
+                  <span>
+                    <h3
+                      class="ms-4 text-base font-semibold capitalize text-secondary"
+                    >
+                      email
+                    </h3>
+                    <h3
+                      class="ms-4 text-base font-semibold capitalize text-secondary"
+                    >
+                      kaziraiyhan@gmail.com
+                    </h3>
+                  </span>
+                </div>
+                <a
+                  class="mt-6 inline-block w-max rounded-xl bg-[#fdd6bf] px-[60px] py-3 text-center text-base font-semibold capitalize text-orange-600 transition-all duration-300 hover:bg-[#FF7527] hover:text-primery"
+                  href=""
+                >
+                  email now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <h3
+              class="m-4 w-80 text-2xl font-semibold capitalize text-secondary lg:w-[533px] lg:text-4xl lg:leading-[54px]"
+            >
+              penghargaan
+            </h3>
+            <div class="flex items-center gap-7">
+              <div class="image h-[104px] w-[156px]">
+                <img src="./image/home/footer_img1.png" alt="img" />
+              </div>
+              <div class="image h-[152px] w-[211px]">
+                <img src="./image/home/footer_img2.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <div class="bg-secondary py-[30px] ">
+        <div class="container mx-auto flex justify-between flex-col sm:flex-row gap-y-8 items-center">
+          <div class="image self-start ms-8 sm:ms-0"><img src="./image/home/footer_logo.png" alt="logo"></div>
+          <ul class="flex gap-16 text-2xl text-primery">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+            <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+            <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a> </li>
+          </ul>
+
+        </div>
+      </div>
+    </footer>
+    <!-- ===================  Footer End ==================== -->
 
     <script
       src="https://kit.fontawesome.com/62d2d1d427.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./public/js/jquery-1.12.4.min.js"></script>
+    <script src="./public/js/slick.js"></script>
+    <script src="./public/js/venobox.js"></script>
     <script src="./public/js/script.js"></script>
   </body>
 </html>
